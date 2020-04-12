@@ -50,7 +50,7 @@ To create a pre-generated backend, click: GENERATE
 
 <Strong>Application.Properties</Strong>
 
-`#Datasource Login in to your DataBase`
+`# Datasource Login in to your DataBase`
 
 `spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`
 
@@ -58,7 +58,7 @@ To create a pre-generated backend, click: GENERATE
 
 `spring.datasource.password= root`
 
-`#PostgreSQL Properties`
+`# PostgreSQL Properties`
 
 `spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`
 
