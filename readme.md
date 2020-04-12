@@ -7,3 +7,5 @@
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
 Jordy Hamwijk (Full Stack Developer @ CodeBean)<br />
 <br />
+![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot-restful-api-postgresql/images/spring-boot-dependency-selection.png)
+
