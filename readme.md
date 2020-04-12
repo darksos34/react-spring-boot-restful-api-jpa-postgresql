@@ -52,7 +52,7 @@ To create a pre-generated backend, click: GENERATE
 
 `# Datasource Login in to your DataBase`<br />
 `spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`<br />
-`spring.datasource.username= postgres`
+`spring.datasource.username= postgres`<br />
 `spring.datasource.password= root`
 
 `# PostgreSQL Properties`<br />
