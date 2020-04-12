@@ -23,7 +23,8 @@ The Java Persistence API (JPA) is a Java specification for accessing, persisting
 ### What is PostgreSQL
 
 **PostgreSQL**
-PostgreSQL (pronounced "post-gress-Q-L") is an open source relational database management system ( DBMS ) developed by a worldwide team of volunteers. PostgreSQL is not controlled by any corporation or other private entity and the source code is available free of charge.
+
+(pronounced "post-gress-Q-L") is an open source relational database management system ( DBMS ) developed by a worldwide team of volunteers. PostgreSQL is not controlled by any corporation or other private entity and the source code is available free of charge.
 
 ### What is Lombok?
 
