@@ -50,28 +50,19 @@ To create a pre-generated backend, click: GENERATE
 
 <Strong>Application.Properties</Strong>
 
-`# Datasource Login in to your DataBase`
-
+`# Datasource Login in to your DataBase`<br />
 `spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`
-
 `spring.datasource.username= postgres`
-
 `spring.datasource.password= root`
 
-`# PostgreSQL Properties`
-
+`# PostgreSQL Properties`<br />
 `spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`
-
 `spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect`
 
-`# Hibernate ddl auto (create, create-drop, validate, update)`
-
+`# Hibernate ddl auto (create, create-drop, validate, update)`<br />
 `spring.jpa.hibernate.ddl-auto= update`
 
-`# Register OpenEntityManagerInViewInterceptor.`
-
-`# Binds a JPA EntityManager to the thread for the entire processing of the request.`
-
-`# Warning gone Open jpa`
-
+`# Register OpenEntityManagerInViewInterceptor.`<br />
+`# Binds a JPA EntityManager to the thread for the entire processing of the request.`<br />
+`# Warning gone Open jpa`<br />
 `spring.jpa.open-in-view=false`
