@@ -39,7 +39,7 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Description:** this is a short description about your project. For this project we will use: ```React and Spring Boot Tutorial```<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
-* **Dependencies:** ```Spring Data JPA`````Spring Web```````PostgreSQL Driver```<br />
+* **Dependencies:** ```Spring Data JPA```Spring Web```PostgreSQL Driver```<br />
 <br />
 To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
 
