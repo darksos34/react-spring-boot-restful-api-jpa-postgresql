@@ -45,3 +45,5 @@ Project Lombok. Project Lombok is a java library that automatically plugs into y
 - **Dependencies:** `Spring Data JPA` `Spring Web` `PostgreSQL Driver` `Lombok`
 
 To create a pre-generated backend, click: GENERATE
+
+![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-dependency-selection.jpg)
