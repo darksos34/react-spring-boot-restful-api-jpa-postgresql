@@ -47,3 +47,22 @@ Project Lombok. Project Lombok is a java library that automatically plugs into y
 To create a pre-generated backend, click: GENERATE
 
 ![Spring Boot Dependency Selection](https://github.com/codebean-university/react-spring-boot-restful-api-jpa-postgresql/blob/master/images/spring-boot-dependency-selection.png)
+
+<Strong>Application.Properties</Strong>
+
+`#Datasource Login in to your DataBase`
+`spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`
+`spring.datasource.username= postgres`
+`spring.datasource.password= root`
+
+`#PostgreSQL Properties`
+`spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`
+`spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect`
+
+`# Hibernate ddl auto (create, create-drop, validate, update)`
+`spring.jpa.hibernate.ddl-auto= update`
+
+`# Register OpenEntityManagerInViewInterceptor.`
+`# Binds a JPA EntityManager to the thread for the entire processing of the request.`
+`# Warning gone Open jpa`
+`spring.jpa.open-in-view=false`
