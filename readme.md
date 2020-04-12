@@ -35,7 +35,7 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Language:** ```Java```<br />
 * **Spring Boot (version):** We will use the latest stable version: ```2.2.6```<br />
 * **Group:** this is your internet domain, backwards. For CodeBean we will use: ```nl.codebean```<br />
-* **Artifact:** this is the name of your project. For this project we will use: ```react-spring-boot-restful-postgresql-api```<br />
+* **Artifact:** this is the name of your project. For this project we will use: ```react-spring-boot-restful-api-jpa-postgresql```<br />
 * **Description:** this is a short description about your project. For this project we will use: ```React and Spring Boot Tutorial```<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
