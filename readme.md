@@ -50,19 +50,19 @@ To create a pre-generated backend, click: GENERATE
 
 <Strong>Application.Properties</Strong>
 
-`#Datasource Login in to your DataBase`
-`spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`
-`spring.datasource.username= postgres`
-`spring.datasource.password= root`
+`#Datasource Login in to your DataBase`<br />
+`spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`<br />
+`spring.datasource.username= postgres`<b />
+`spring.datasource.password= root`<b />
 
-`#PostgreSQL Properties`
-`spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`
-`spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect`
+`#PostgreSQL Properties`<b />
+`spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`<b />
+`spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect`<b />
 
-`# Hibernate ddl auto (create, create-drop, validate, update)`
-`spring.jpa.hibernate.ddl-auto= update`
+`# Hibernate ddl auto (create, create-drop, validate, update)`<b />
+`spring.jpa.hibernate.ddl-auto= update`<b />
 
-`# Register OpenEntityManagerInViewInterceptor.`
-`# Binds a JPA EntityManager to the thread for the entire processing of the request.`
-`# Warning gone Open jpa`
-`spring.jpa.open-in-view=false`
+`# Register OpenEntityManagerInViewInterceptor.`<b />
+`# Binds a JPA EntityManager to the thread for the entire processing of the request.`<b />
+`# Warning gone Open jpa`<b />
+`spring.jpa.open-in-view=false`<b />
