@@ -17,11 +17,11 @@ Moving forward, we will use this repository as starting point for any further re
 ### What is JPA?
 **JPA**
 
-<br/>
+<br />
 ### What is PostgreSQL
 **PostgreSQL**
 
-<br/>
+<br />
 ### What is Lombok?
 **Lombok**
 
