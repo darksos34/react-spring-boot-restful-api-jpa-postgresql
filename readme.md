@@ -1,4 +1,4 @@
-# Adding RESTfull api PostgreSQL Setup
+# Adding RESTful api PostgreSQL Setup
 
 *Created on: 12-04-2019*<br />
 *Last updated on: 12-04-2019*
