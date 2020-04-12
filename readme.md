@@ -40,8 +40,10 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
 * **Dependencies:** ```Spring Data JPA```Spring Web ```PostgreSQL Driver```<br />
-<br/>
-To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
-<br/>
-![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot-restful-api-postgresql/master/images/spring-boot-dependency-selection.png)
 <br />
+To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
+<br />
+![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot-restful-api-postgresql/master/images/spring-boot-dependency-selection.png)
+<br /><br />
+
+
