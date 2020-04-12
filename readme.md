@@ -24,7 +24,7 @@ Moving forward, we will use this repository as starting point for any further re
 <br />
 ### What is Lombok?
 **Lombok**
-
+<br />
 <br />
 ## Getting started
 In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
