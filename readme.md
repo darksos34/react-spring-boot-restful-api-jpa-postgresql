@@ -1,4 +1,4 @@
-# React and Spring Boot RESTfull PostgreSQL api Setup
+# Adding RESTfull api PostgreSQL Setup
 
 *Created on: 12-04-2019*<br />
 *Last updated on: 12-04-2019*
@@ -10,7 +10,7 @@ Jordy Hamwijk (Full Stack Developer @ CodeBean)<br />
 
 
 
-Welcome developer. This is the first tutorial in developing your first Web Application with **React and Spring Boot**.<br />
+Welcome developer. This is the second tutorial in developing your Web Application connecting PostgreSQL with your**.<br />
 Moving forward, we will use this repository as starting point for any further repositories which we will post here on GitHub.<br />
 <br />
 ### What is React?
