@@ -16,10 +16,16 @@ Moving forward, we will use this repository as starting point for any further re
 
 ### What is JPA?
 **JPA**
+
 <br/>
 ### What is PostgreSQL
 **PostgreSQL**
+
 <br/>
+### What is Lombok?
+**Lombok**
+
+<br />
 ## Getting started
 In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Project:** ```Maven Project```<br />
@@ -30,7 +36,7 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Description:** this is a short description about your project. For this project we will use: ```React and Spring Boot RESTful API JPA PostgreSQL Tutorial```<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
-* **Dependencies:** ```Spring Data JPA``` ```Spring Web``` ```PostgreSQL Driver```<br />
+* **Dependencies:** ```Spring Data JPA``` ```Spring Web``` ```PostgreSQL Driver``` ```Lombok```<br />
 <br />
 To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
 
