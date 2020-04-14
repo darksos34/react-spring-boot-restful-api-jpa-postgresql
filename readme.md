@@ -159,6 +159,7 @@ And add the following settings in to your `application.properties`
 
 `# Datasource Login in to your DataBase`<br />
 `spring.datasource.url= jdbc:postgresql://localhost:5432/username`<br />
+`spring.datasource.username=username`<br />
 
 `# Choose a password that is easy to remember, only if you are still working local!`<br />
 `spring.datasource.password=password`
