@@ -48,6 +48,9 @@ To create a pre-generated backend, click: GENERATE
 
 ![Spring Boot Dependency Selection](https://github.com/codebean-university/react-spring-boot-restful-api-jpa-postgresql/blob/master/images/spring-boot-dependency-selection.png)
 
+<br />A ZIP file is downloaded on your hard-drive. Open the ZIP file and extract the project folder.
+Open the project folder in your favorite IDE.
+
 <Strong>Application.Properties</Strong>
 
 `# Datasource Login in to your DataBase`<br />
