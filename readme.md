@@ -139,12 +139,16 @@ The following listing shows the `POM.xml` file that is created when you choose a
 </project>
 ```
 
-<Strong>Application.Properties</Strong>
+<Strong>Configuring PostgreSQL</Strong>
 
 `# Datasource Login in to your DataBase`<br />
-`spring.datasource.url= jdbc:postgresql://localhost:5432/postgres`<br />
-`spring.datasource.username= postgres`<br />
-`spring.datasource.password= root`
+`spring.datasource.url= jdbc:postgresql://localhost:5432/username>`<br />
+
+`# Choose your username and password when installing PgAdmin4`
+`spring.datasource.username=username`<br />
+
+`# Choose a password that is easy to remember, only if you are still working local!`<br />
+`spring.datasource.password=password`
 
 `# PostgreSQL Properties`<br />
 `spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true`<br />
