@@ -142,10 +142,9 @@ The following listing shows the `POM.xml` file that is created when you choose a
 <Strong>Configuring PostgreSQL</Strong>
 
 `# Datasource Login in to your DataBase`<br />
-`spring.datasource.url= jdbc:postgresql://localhost:5432/username>`<br />
+`spring.datasource.url= jdbc:postgresql://localhost:5432/username`<br />
 
-`# Choose your username and password when installing PgAdmin4`
-`spring.datasource.username=username`<br />
+`# Choose your username and password when installing PgAdmin4`<br />
 
 `# Choose a password that is easy to remember, only if you are still working local!`<br />
 `spring.datasource.password=password`
