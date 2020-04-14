@@ -146,9 +146,9 @@ Download pgAdmin latest version and Install pgAdmin
 <br />
 
 pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
-<br />
+<br /><br />
 pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
-<br />
+<br /><br />
 `# Choose your username and password when installing PgAdmin4`<br />
 <br /><br />
 <Strong>Properties to connect Spring Boot with PostgreSQL</Strong>
