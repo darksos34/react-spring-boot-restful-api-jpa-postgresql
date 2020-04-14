@@ -140,27 +140,21 @@ The following listing shows the `POM.xml` file that is created when you choose a
 ```
 
 <Strong>Configuring PostgreSQL</Strong>
+<br />
+Go to https://www.pgadmin.org/download/
+Download pgAdmin latest version availeble
+<Strong>Install pgAdmin</Strong><br />
 
-<Strong>Install pgadmin</Strong><br />
-pgAdmin is a free software project released under the PostgreSQL/Artistic licence.
-The software is available in source
-and binary format from the PostgreSQL mirror network.
-Because compiling from source requires technical knowledge,
-we recommend installing binary packages whenever possible.
+pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
 
-The pages in this section give additional details about each binary
-package available as well as more direct download links.
-In addition, you can download source tarballs and pgAgent for your servers to enable additional functionality.
+pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
 
-pgAdmin 4
-pgAdmin 4 is a complete rewrite of pgAdmin, built using Python and Javascript/jQuery. A desktop runtime written in C++ with Qt allows it to run standalone for individual users, or the web application code may be deployed directly on a webserver for use by one or more users through their web browser. The software has the look and feel of a desktop application whatever the runtime environment is, and vastly improves on pgAdmin III with updated user interface elements, multi-user/web deployment options, dashboards and a more modern design.
-
+`# Choose your username and password when installing PgAdmin4`<br />
+<br />
 <Strong>Properties to connect Spring Boot with PostgreSQL</Strong>
 
 `# Datasource Login in to your DataBase`<br />
 `spring.datasource.url= jdbc:postgresql://localhost:5432/username`<br />
-
-`# Choose your username and password when installing PgAdmin4`<br />
 
 `# Choose a password that is easy to remember, only if you are still working local!`<br />
 `spring.datasource.password=password`
