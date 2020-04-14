@@ -142,8 +142,8 @@ The following listing shows the `POM.xml` file that is created when you choose a
 <Strong>Configuring PostgreSQL</Strong>
 <br />
 Go to https://www.pgadmin.org/download/
-Download pgAdmin latest version availeble
-<Strong>Install pgAdmin</Strong><br />
+Download pgAdmin latest version and Install pgAdmin
+<br />
 
 pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
 
