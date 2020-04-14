@@ -153,6 +153,10 @@ pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.
 <br /><br />
 <Strong>Properties to connect Spring Boot with PostgreSQL</Strong>
 
+Go to your project in your favorite IDE and open the folder src/main/resources
+
+And add the following settings in to your `application.properties`
+
 `# Datasource Login in to your DataBase`<br />
 `spring.datasource.url= jdbc:postgresql://localhost:5432/username`<br />
 
