@@ -139,18 +139,18 @@ The following listing shows the `POM.xml` file that is created when you choose a
 </project>
 ```
 
-<Strong>Configuring PostgreSQL</Strong>
-<br />
-Go to https://www.pgadmin.org/download/
+<b><Strong>Configuring PostgreSQL</Strong><b>
+<br /><br />
+Go to https://www.pgadmin.org/download/<br />
 Download pgAdmin latest version and Install pgAdmin
 <br />
 
 pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
-
-pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
-
-`# Choose your username and password when installing PgAdmin4`<br />
 <br />
+pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
+<br />
+`# Choose your username and password when installing PgAdmin4`<br />
+<br /><br />
 <Strong>Properties to connect Spring Boot with PostgreSQL</Strong>
 
 `# Datasource Login in to your DataBase`<br />
