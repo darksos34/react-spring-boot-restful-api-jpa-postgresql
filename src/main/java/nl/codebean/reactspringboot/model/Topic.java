@@ -1,25 +1,15 @@
 package nl.codebean.reactspringboot.model;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Data
 @Entity
-@NoArgsConstructor
 @Table(name = "topic_table") // Define table name
 @SequenceGenerator(name = "topicCounter", sequenceName = "topic_id_seq", allocationSize = 1)
 public class Topic {
-    @Id
-    private String id;
-    private String name;
-    private String description;
 
-    /*
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "topicCounter")
     private Long id;
@@ -30,28 +20,29 @@ public class Topic {
     @Column(name = "topic_description", nullable = false)
     private String description;
 
-    */
-    /* No args constructor
-    public Topic(){
+    // No args constructor
+    public Topic() {
 
-    }*/
+    }
 
     // Args constructor
-    public Topic(String id, String name, String description){
+    public Topic(Long id, String name, String description, Long topicId) {
         super();
         this.id = id;
         this.name = name;
         this.description = description;
 
-
     }
-        /*
+
+    public Topic(Long topicId, String name, String id) {
+    }
+
     // Getters and Setters
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -70,7 +61,5 @@ public class Topic {
     public void setDescription(String description) {
         this.description = description;
     }
-
-*/
 
 }
