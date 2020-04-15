@@ -1,7 +1,7 @@
 # React and Spring Boot RESTful API JPA PostgreSQL Setup
 
 _Created on: 12-04-2019_<br />
-_Last updated on: 14-04-2019_
+_Last updated on: 15-04-2019_
 
 **Contributors:**<br />
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
