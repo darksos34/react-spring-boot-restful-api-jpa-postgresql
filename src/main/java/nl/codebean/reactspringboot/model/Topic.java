@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+//@Data will generate all getters and setters
 @Data
 @Entity
 @Table(name = "topic_table") // Define table name
@@ -36,30 +37,20 @@ public class Topic {
 
     public Topic(Long topicId, String name, String id) {
     }
-
-    // Getters and Setters
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
 }
+/*
+ * // Getters and Setters public Long getId() { return id; }
+ * 
+ * public void setId(Long id) { this.id = id; }
+ * 
+ * public String getName() { return name; }
+ * 
+ * public void setName(String name) { this.name = name; }
+ * 
+ * public String getDescription() { return description; }
+ * 
+ * public void setDescription(String description) { this.description =
+ * description; }
+ * 
+ * }
+ */
