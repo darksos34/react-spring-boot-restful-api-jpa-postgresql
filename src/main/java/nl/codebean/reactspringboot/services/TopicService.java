@@ -1,8 +1,5 @@
 package nl.codebean.reactspringboot.services;
 
-
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import nl.codebean.reactspringboot.model.Topic;
 import nl.codebean.reactspringboot.repository.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,12 +18,9 @@ public class TopicService {
 
     public List<Topic> getAllTopics() {
         List<Topic> topics = new ArrayList<>();
-        topicRepository.findAll()
-                .forEach(topics::add);
+        topicRepository.findAll().forEach(topics::add);
         return topics;
     }
-
-
 
     public Topic getTopic(Long id, Topic topic) {
         topicRepository.findById(id);
@@ -36,11 +30,11 @@ public class TopicService {
     public void addTopic(Topic topic) {
         topicRepository.save(topic);
     }
-    public void updateTopic(String id, Topic topic){
+
+    public void updateTopic(String id, Topic topic) {
         topicRepository.save(topic);
 
     }
-
 
     public void deleteTopic(String id) {
         deleteTopic(id);
