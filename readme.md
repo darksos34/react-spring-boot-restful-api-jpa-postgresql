@@ -1,7 +1,17 @@
 # React and Spring Boot RESTful API JPA PostgreSQL Setup
 
-_Created on: 12-04-2019_<br />
-_Last updated on: 16-04-2019_
+_Created on: 12-04-2020_<br />
+_Last updated on: 16-04-2020_
+
+_Added Today 16-04-2020_
+_Profile_APi_
+_User_APi_
+_Topic_Api_
+
+#Future
+This tutorial is still underconstruction!
+
+
 
 **Contributors:**<br />
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
@@ -160,6 +170,3 @@ And add the following settings in to your `application.properties`
 `# Binds a JPA EntityManager to the thread for the entire processing of the request.`<br />
 `# Warning gone Open jpa`<br />
 `spring.jpa.open-in-view=false`
-
-#Future
-This tutorial is still underconstruction!
