@@ -1,7 +1,9 @@
 # React and Spring Boot RESTful API JPA PostgreSQL Setup
 
-><Strong>_Created on: 12-04-2020_<br />
-_Last updated on: 16-04-2020_
+
+>_Starded on: 02-04-2020_
+>_Created on: 12-04-2020_<br />
+>_Last updated on: 16-04-2020_
 
 >_Added Today 16-04-2020_
 _Profile_APi_
@@ -10,7 +12,7 @@ _Topic_Api_
 
 #Future
 >This tutorial is still underconstruction!
-</Strong>
+
 
 
 **Contributors:**<br />
