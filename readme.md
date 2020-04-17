@@ -141,13 +141,17 @@ The following listing shows the `POM.xml` file that is created when you choose a
 
 <b><Strong>Configuring PostgreSQL</Strong><b>
 <br /><br />
+How to get postgreSQL?
+Go to https://www.postgresql.org/download/
+Download postgreSQL latest version and Install postgreSQL.
+<enter>
 Go to https://www.pgadmin.org/download/<br />
 Download pgAdmin latest version and Install pgAdmin
 <br />
 
 pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
 <br /><br />
-pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
+PgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.
 <br /><br />
 `# Choose your username and password when installing PgAdmin4`<br />
 <br /><br />
@@ -175,3 +179,9 @@ And add the following settings in to your `application.properties`
 `# Binds a JPA EntityManager to the thread for the entire processing of the request.`<br />
 `# Warning gone Open jpa`<br />
 `spring.jpa.open-in-view=false`
+
+`# A Hibernate Type is a strategy for mapping a Java propertie type to a JDBC type or types.`
+`logging.level.org.hibernate.SQL=DEBUG`
+`logging.level.org.hibernate.type=TRACE`
+
+
