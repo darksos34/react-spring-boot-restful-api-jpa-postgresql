@@ -4,7 +4,9 @@ import nl.codebean.reactspringboot.topics.model.Topic;
 import nl.codebean.reactspringboot.topics.repository.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.beans.Transient;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +17,8 @@ public class TopicService {
     private TopicRepository topicRepository;
 
     public Topic topic;
-
+    
+    @Transactional
     public List<Topic> getAllTopics() {
         List<Topic> topics = new ArrayList<>();
         topicRepository.findAll().forEach(topics::add);
