@@ -6,15 +6,11 @@
 <Enter>
 
 >_Created on: 12-04-2020_<br />
->_Last updated on: 16-04-2020_
-
->_Added Today 16-04-2020_
-_Profile_APi_
-_User_APi_
-_Topic_Api_
+>_Last updated on: 17-04-2020_
 
 #Future
 >This tutorial is still underconstruction!
+
 
 
 
@@ -180,6 +176,7 @@ And add the following settings in to your `application.properties`
 `# Warning gone Open jpa`<br />
 `spring.jpa.open-in-view=false`
 
+`# SQL statements and parameters`
 `# A Hibernate Type is a strategy for mapping a Java propertie type to a JDBC type or types.`
 `logging.level.org.hibernate.SQL=DEBUG`
 `logging.level.org.hibernate.type=TRACE`
