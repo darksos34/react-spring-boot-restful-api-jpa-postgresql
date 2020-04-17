@@ -1,6 +1,7 @@
 package nl.codebean.reactspringboot;
 
 
+import lombok.With;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,3 +14,4 @@ public class HomeController {
         return "Hello, the time at the server is now " + new Date() + "\n";
     }
 }
+

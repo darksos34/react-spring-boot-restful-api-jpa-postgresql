@@ -9,33 +9,33 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-
+@RequestMapping("/api/profiles")
 public class ProfileController {
 
     @Autowired
     private ProfileService profileService;
 
-    @RequestMapping("/profiles")
+    @GetMapping
     public List<Profile> getAllprofiles(){
         return profileService.getAllProfiles();
     }
 
-    @RequestMapping("/profiles{id}")
+    @GetMapping("/{id}")
     public Profile getProfile(@PathVariable Long id){
         return profileService.getProfile(id);
     }
 
-    @RequestMapping(method = RequestMethod.POST,value = "/profiles")
+    @PostMapping
     public void addProfile(@RequestBody Profile profile){
         profileService.addProfile(profile);
 
     }
-    @RequestMapping(method = RequestMethod.PUT, value = "/profiles/{id}")
+    @PutMapping
     public void updateProfile(@RequestBody Profile profile, @PathVariable String id){
         profileService.updateProfile(id, profile);
 
     }
-    @RequestMapping(method = RequestMethod.DELETE, value = "/profiles/{id}")
+    @DeleteMapping("/{id}")
     public void deleteProfile(@PathVariable String id){
         profileService.deleteProfile(id);
     }

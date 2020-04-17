@@ -1,5 +1,6 @@
 package nl.codebean.reactspringboot.user.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import nl.codebean.reactspringboot.Profile.model.Profile;
 
@@ -36,6 +37,7 @@ public class User {
     @Column(unique = true)
     private String email;
 
+    @JsonIgnore
     @NotBlank
     @Size(max = 128)
     private String password;
