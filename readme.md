@@ -176,7 +176,7 @@ And add the following settings in to your `application.properties`
 `# Warning gone Open jpa`<br />
 `spring.jpa.open-in-view=false`
 
-`# SQL statements and parameters`
+`# Only for testing`
 `# A Hibernate Type is a strategy for mapping a Java propertie type to a JDBC type or types.`
 `logging.level.org.hibernate.SQL=DEBUG`
 `logging.level.org.hibernate.type=TRACE`

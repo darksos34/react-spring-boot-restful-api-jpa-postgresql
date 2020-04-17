@@ -17,7 +17,7 @@ public class TopicService {
     private TopicRepository topicRepository;
 
     public Topic topic;
-    
+
     @Transactional
     public List<Topic> getAllTopics() {
         List<Topic> topics = new ArrayList<>();

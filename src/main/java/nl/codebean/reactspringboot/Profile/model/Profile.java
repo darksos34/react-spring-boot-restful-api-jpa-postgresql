@@ -1,6 +1,6 @@
 package nl.codebean.reactspringboot.Profile.model;
 
-import com.nimbusds.openid.connect.sdk.claims.Gender;
+
 import lombok.Data;
 
 import nl.codebean.reactspringboot.user.model.User;
