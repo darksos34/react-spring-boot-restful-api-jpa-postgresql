@@ -31,12 +31,12 @@ public class TopicController {
 
     }
     @PutMapping
-    public void updateTopic(@RequestBody Topic topic, @PathVariable String id){
+    public void updateTopic(@RequestBody Topic topic, @PathVariable Long id){
         topicService.updateTopic(id, topic);
 
     }
     @DeleteMapping("/{id}")
-    public void deleteTopic(@PathVariable String id){
+    public void deleteTopic(@PathVariable Long id){
         topicService.deleteTopic(id);
     }
 }

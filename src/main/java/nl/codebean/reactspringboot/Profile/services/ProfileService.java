@@ -33,12 +33,12 @@ public class ProfileService {
         profileRepository.save(profile);
     }
 
-    public void updateProfile(String id, Profile profile) {
+    public void updateProfile(Long id, Profile profile) {
         profileRepository.save(profile);
 
     }
 
-    public void deleteProfile(String id) {
+    public void deleteProfile(Long id) {
         deleteProfile(id);
     }
 

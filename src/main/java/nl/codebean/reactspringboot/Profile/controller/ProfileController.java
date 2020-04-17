@@ -16,7 +16,7 @@ public class ProfileController {
     private ProfileService profileService;
 
     @GetMapping
-    public List<Profile> getAllprofiles(){
+    public List<Profile> getAllProfiles(){
         return profileService.getAllProfiles();
     }
 
@@ -31,12 +31,12 @@ public class ProfileController {
 
     }
     @PutMapping
-    public void updateProfile(@RequestBody Profile profile, @PathVariable String id){
+    public void updateProfile(@RequestBody Profile profile, @PathVariable Long id){
         profileService.updateProfile(id, profile);
 
     }
     @DeleteMapping("/{id}")
-    public void deleteProfile(@PathVariable String id){
+    public void deleteProfile(@PathVariable Long id){
         profileService.deleteProfile(id);
     }
 }

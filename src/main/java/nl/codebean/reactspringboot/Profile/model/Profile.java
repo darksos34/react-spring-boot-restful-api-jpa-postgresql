@@ -1,10 +1,10 @@
 package nl.codebean.reactspringboot.Profile.model;
 
-
-import lombok.Data;
-
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import nl.codebean.reactspringboot.user.model.User;
-import org.springframework.web.bind.annotation.RequestMapping;
+
 
 
 import javax.persistence.*;
@@ -12,17 +12,15 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
-//@Data will generate all getters and setters
-@Data
+@Getter
+@Setter
 @Entity
-//@NoArgsConstructor
-@RequestMapping("user")
+@NoArgsConstructor
 @Table(name = "profile") // Define table name
-@SequenceGenerator(name = "profileCounter", sequenceName = "profile_id_seq", allocationSize = 1)
 public class Profile implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "profileCounter")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "phone_number")
@@ -55,20 +53,13 @@ public class Profile implements Serializable {
     @Size(max = 100)
     private String country;
 
-    @Column(name ="zip_code")
+    @Column(name = "zip_code")
     @Size(max = 32)
     private String zipCode;
 
     @OneToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "user_id",nullable = false)
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
-    // No args constructor
-    public Profile(){
-
-    }
-
-
-
 
     /*Gender gender,*/
     // Args constructor
@@ -85,12 +76,5 @@ public class Profile implements Serializable {
         this.city = city;
         this.country = country;
         this.zipCode = zipCode;
-    }
-
-    public Long getId(){
-        return id;
-    }
-    public void setId(Long id){
-        this.id = id;
     }
 }

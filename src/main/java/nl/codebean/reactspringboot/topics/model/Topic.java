@@ -11,13 +11,11 @@ import javax.persistence.*;
 
 @Entity
 @NoArgsConstructor
-
 @Table(name = "topic_table") // Define table name
-@SequenceGenerator(name = "topicCounter", sequenceName = "topic_id_seq", allocationSize = 1)
 public class Topic {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "topicCounter")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "topic_name", unique = true, nullable = false)
@@ -29,13 +27,9 @@ public class Topic {
 
     // Args constructor
     public Topic(Long id, String name, String description) {
-        super();
         this.id = id;
         this.name = name;
         this.description = description;
-
-
     }
 
 }
-
